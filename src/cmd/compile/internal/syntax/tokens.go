@@ -32,14 +32,17 @@ const (
 	_Lparen    // (
 	_Lbrack    // [
 	_Lbrace    // {
+	_Lcaret    // <
 	_Rparen    // )
 	_Rbrack    // ]
 	_Rbrace    // }
+	_Rcaret    // >
 	_Comma     // ,
 	_Semi      // ;
 	_Colon     // :
 	_Dot       // .
 	_DotDotDot // ...
+	_Pipe      // |
 
 	// keywords
 	_Break       // break
@@ -67,6 +70,9 @@ const (
 	_Switch      // switch
 	_Type        // type
 	_Var         // var
+	_Swizzle     // swizzle
+	_Parse       // parse
+	_Parsel      // parsel
 
 	// empty line comment to exclude it from .String
 	tokenCount //
